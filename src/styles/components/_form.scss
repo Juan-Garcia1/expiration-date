@@ -1,0 +1,28 @@
+form {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 20px 30px;
+  border-radius: 5px;
+  max-width: 500px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  right: 0;
+  transform: translate(-50%, -50%);
+  background: #fff;
+  input {
+    width: 100%;
+    padding: 8px 5px;
+    outline: none;
+    border: solid 1px lightgray;
+    border-radius: 3px;
+    transition: border-color 0.3s ease;
+    &:focus {
+      border-color: navy;
+    }
+  }
+  button {
+    margin-top: 15px;
+    padding: 10px;
+  }
+}
