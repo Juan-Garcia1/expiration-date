@@ -1,0 +1,16 @@
+@import "./base/utilities";
+@import "./components/buttons";
+@import "./components/form";
+@import "./components/modal";
+@import "./layout/header";
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
