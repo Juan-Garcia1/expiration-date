@@ -1,0 +1,19 @@
+header {
+  background: navy;
+  height: 25vh;
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  line-height: 2.4em;
+  h1,
+  h2 {
+    margin: 0;
+  }
+  h1 {
+    font-size: 2.5em;
+  }
+  h2 {
+    font-weight: 400;
+    font-size: 1.2em;
+  }
+}
